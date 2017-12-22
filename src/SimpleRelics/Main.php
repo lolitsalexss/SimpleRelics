@@ -22,7 +22,7 @@ class Main extends PluginBase implements Listener{
 			
 			$this->getServer()->getPluginManager()->registerEvents($this,$this);
 			$this->saveDefaultConfig();
-			$this->getServer()->getLogger()->notice(TF::AQUA . TF::BOLD . "SimpleRelics" . TF::RESET . TF::GRAY . "has been loaded! Plugin by DiamondGamer30");
+			$this->getServer()->getLogger()->notice(TF::AQUA . TF::BOLD . "SimpleRelics" . TF::RESET . TF::GRAY . "has been loaded! Plugin by ShadowLessMCPE");
 			$this->getServer()->getLogger()->notice(TF::GRAY . "Github: https://github.com/diamondgamermcpe");
 			$this->getServer()->getLogger()->notice(TF::GRAY . "Twitter: https://twitter.com/DavidGamingzz");
 		
